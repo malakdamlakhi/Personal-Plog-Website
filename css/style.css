@@ -1,0 +1,184 @@
+
+
+   @import'recipe1.css';
+   @import'recipe2.css';
+   @import'recipe3.css';
+
+
+:root{
+    --primaryColor: #fff ;
+
+    --secondaryColor : #e81c8f;
+    --lightColor: #f7c2e1;
+    --bgColor-1: #f7bcc8;
+    --bgColor-2: #171a1c;
+    --padding: 8% ;
+}
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: "Josefin Sans", sans-serif;
+    font-size:20px  ;
+    color: var(--secondaryColor);
+}
+
+body{
+ 
+    background-color: var(--bgColor-1);
+}
+
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+nav{
+    background-color: #f9e0f9;
+    padding-top: 0.5rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+nav ul li a{
+    color: var(--secondaryColor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color:var(--primaryColor);
+}
+.btn{
+    background-color:var(--secondaryColor);
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius:25px;
+    text-align: center;
+    font-weight: bold;
+    border:2px solid transparent;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: var(--secondaryColor);
+    border:2px solid var(--secondaryColor);
+}
+ 
+ 
+
+.wrapper{
+    display: flex;
+    justify-content:center;
+  flex-wrap: wrap;
+    height: 40vh;
+    margin-top:50px;
+    
+}
+.card{
+    height: 500px;
+   border-radius: 8px;
+    box-shadow: 5px 5px 20px rgb(238, 103, 134);
+    overflow: hidden;
+    margin: 20px;
+}
+
+img{
+    height:400px;
+    width: 350px;
+    border-radius: 3px;
+}
+.inbox{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    color: #e81c8f;
+}
+h2{
+    margin: 15px;
+    font-size: 40px;
+    color: var(--secondaryColor);
+
+
+}
+.btn1{
+    background-color:var(--secondaryColor);
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius:30px;
+    border:2px solid transparent;
+    transition: 0.4s;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: var(--secondaryColor);
+    border:2px solid var(--secondaryColor);
+}
+ 
+.btn2{
+    background-color:var(--secondaryColor);
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius:30px;
+    border:2px solid transparent;
+    transition: 0.4s;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: var(--secondaryColor);
+    border:2px solid var(--secondaryColor);
+}
+ 
+.btn3{
+    background-color:var(--secondaryColor);
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius:30px;
+    border:2px solid transparent;
+    transition: 0.4s;
+}
+
+.btn3:hover{
+    background-color: transparent;
+    color: var(--secondaryColor);
+    border:2px solid var(--secondaryColor);
+}
+.footer {
+    display: grid; /* تفعيل خاصية الجريد */
+    grid-template-columns: repeat(4, 1fr); /* تقسيم الفوتر إلى 4 أعمدة */
+    gap: 20px; /* المسافة بين العناصر */
+    padding: 20px; /* مساحة داخلية */
+    background-color: #f8f8f8; /* لون الخلفية */
+    text-align: center; /* محاذاة النص في المنتصف */
+}
+
+.footer-item {
+    padding: 10px; /* مساحة داخلية لكل عنصر */
+}
